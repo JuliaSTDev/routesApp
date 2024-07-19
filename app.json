@@ -2,6 +2,23 @@
   "expo": {
     "name": "routes",
     "slug": "routes",
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "extra": {
+      "eas": {
+        "projectId": "96289790-36db-49b5-a8af-f7c3b2eaaf66"
+      }
+    },
+    "plugins": [
+      [
+        "@rnmapbox/maps",
+        {
+          "RNMapboxMapsImpl": "mapbox",
+          "RNMapboxMapsDownloadToken": "sk.eyJ1IjoiZGFuaWxvbWlndWVsMTQ4NSIsImEiOiJjbGZyMGI4YmMwMGt3M3VrOHIwYzNyZ2VhIn0.uu2FELZlU70-C20DvGNl7w"
+        }
+      ]
+    ],
+    "android": {
+      "package": "com.juliast.routes"
+    }
   }
 }
